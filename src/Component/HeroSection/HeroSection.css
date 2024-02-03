@@ -1,0 +1,23 @@
+.heroSection {
+  margin-top: 1em;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.reactIcon {
+  top: 27vh;
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.iconDiv {
+  margin-top: 1em;
+  gap: 0.25em;
+  display: flex;
+  flex-direction: row;
+}

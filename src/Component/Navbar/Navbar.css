@@ -1,0 +1,77 @@
+.Navbar{
+    margin: 0px 50px;
+ display: flex;
+ justify-content: space-between;
+ height: 20vh;
+ align-items: center;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.ulContainer{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.hr{
+    margin-top: .50em;
+    border: 1px solid white;
+}
+.btn{
+    height: 5vh;
+    width: 20vh;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    border-radius: 0.2rem;
+    color: white;
+}
+.imgContainer{
+    height: 20vh;
+}
+.menuButton{
+    height: 5vh;
+    color: white;
+    background: wheat;
+    border-radius: 0.5em;
+    display: none;
+}
+.ulButton{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.MobileulContainer{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    flex-direction: column;
+    margin-top: 30vh;
+    align-items: end;
+
+}
+@media (max-width:769px){
+   .menuButton{
+    display: block;
+   }
+   .ulButton{
+    display: none;
+   }
+   .btn{
+    display: none;
+   }
+   .MobileulContainer{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    flex-direction: column;
+    margin-top: 35vh;
+    align-items: start;
+    background: yellow;
+    border-radius: 0.25em;
+    color: black;
+
+}
+.MobileulButton{
+    display: flex;
+    flex-direction: column;
+}
+   
+}

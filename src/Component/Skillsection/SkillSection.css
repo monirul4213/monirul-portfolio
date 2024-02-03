@@ -16,6 +16,7 @@
     justify-content: space-around;
 }
 .grid{
+    cursor: pointer;
     position: relative;
     font-size: 1em;
     font-weight: bolder; 
@@ -44,7 +45,7 @@
 .MainTable{
 
     width: 70vh;
-    height: 50vh;
+    height: 55vh;
     border: 1px solid white;
     border-radius: .50em;
 }
@@ -68,4 +69,24 @@
     background-color: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
     width:60vh ;
     border-radius: 20px;
+}
+.totalSkill{
+    
+    align-items: center;
+    margin-top: 10vh;
+    width: 70%;
+    border: 1px solid white;
+    
+    height: 50vh;
+    border-radius: .50em;
+}
+.centerDisplay{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:769px){
+.skillBar{
+    flex-direction: column;
+}
 }
